@@ -51,8 +51,6 @@ include 'insertDataToDatabase.php';
 include 'displayData.php';
 ?>
 
-<!--<div id="select_data_switch">Zapnout označení celého řádku</div>-->
-
 </body>
 
 </html>
