@@ -1,0 +1,202 @@
+html,body
+{
+margin: 0;
+padding: 0;
+}
+
+#header
+{
+width: calc(100% - 20px);
+height: 50px;
+box-sizing: border-box;
+background: rgba(0,255,0,1);
+margin: 10px auto;
+font: 26px/1.0 Arial;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+border: 1px solid rgba(0,0,0,1);
+}
+
+.button
+{
+width: 100px;
+height: 30px;
+background: rgba(0,100,0,1);
+color: rgba(255,255,255,1);
+display: flex;
+justify-content: center;
+align-items: center;
+font: 16px/1.0 Times New Roman;
+border-radius: 5px;
+margin: 0 0 5px 10px;
+}
+
+.button:hover
+{
+background: rgba(0,130,0,1);
+cursor: pointer;
+}
+
+.uploadFile
+{
+width: fit-content;
+height: 30px;
+background: rgba(0,100,0,1);
+color: rgba(255,255,255,1);
+display: flex;
+justify-content: center;
+align-items: center;
+font: 16px/1.0 Times New Roman;
+border-radius: 5px;
+margin: 0 5px 5px 10px;
+padding: 0 5px;
+float: left;
+border: none;
+}
+
+[type="file"]
+{
+width: 0.1px;
+height: 0.1px;
+opacity: 0;
+overflow: hidden;
+position: absolute;
+z-index: -1;  
+}
+
+.uploadFile:hover
+{
+background: rgba(0,130,0,1);
+cursor: pointer;
+}
+
+.remove_border
+{
+border: none;
+}
+
+.insert_selected_file
+{
+width: 160px;
+border: none;
+}
+
+#names_table
+{
+float: left;
+margin: 5px 10px 10px 10px;
+border: 0.6px solid rgba(0,0,0,1);
+border-collapse: collapse;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+border-spacing: 0;
+}
+
+#names_table th
+{
+background: rgba(200,200,200,1);
+border: 0.6px solid rgba(0,0,0,1);
+border-collapse: collapse;
+padding: 5px;
+}
+
+#names_table td
+{
+border: 0.6px solid rgba(0,0,0,1);
+border-collapse: collapse;
+padding: 5px;
+}
+
+.highlighted
+{
+background: rgba(255,255,0,1);
+}
+
+#select_controls
+{
+float: left;
+}
+
+.select_data_switch
+{
+width: max-content;
+height: 30px;
+background: rgba(0,100,0,1);
+color: rgba(255,255,255,1);
+display: flex;
+justify-content: center;
+align-items: center;
+font: 16px/1.0 Times New Roman;
+border-radius: 5px;
+padding: 0 5px;
+margin: 5px 0 5px 0;
+border: none;
+}
+
+.select_data_switch:hover,.select_data_switch_active:hover
+{
+background: rgba(0,130,0,1);
+cursor: pointer;
+}
+
+.select_data_switch_active
+{
+width: max-content;
+height: 30px;
+background: rgba(0,100,0,1);
+color: rgba(255,255,0,1);
+display: flex;
+justify-content: center;
+align-items: center;
+font: 16px/1.0 Times New Roman;
+border-radius: 5px;
+padding: 0 5px;
+margin: 5px 0 5px 0;
+border: none;
+}
+
+#select_data_remove_all_selection
+{
+background: rgba(255,0,0,1);
+}
+
+#select_data_remove_all_selection:hover
+{
+background: rgba(200,0,0,1);
+}
+
+#select_data_select_all
+{
+background: rgba(255,0,0,1);
+}
+
+#select_data_select_all:hover
+{
+background: rgba(200,0,0,1);
+}
+
+#single_cell_select
+{
+margin: 5px 0 0 0;
+}
+
+.error_note
+{
+margin-left: 10px;
+}
+
+.error_note2
+{
+margin: 0 0 5px 10px;
+}
+
+.success_note
+{
+margin: 0 0 5px 10px;
+}
